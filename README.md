@@ -11,8 +11,20 @@ Individual project carried out as part of the “Dynamics of Electrical Machines
 
 ## 📁 Contents
 - `report.pdf`: detailed technical report (EN)
-- `tram_model.m`: MATLAB implementation
-- `speed_control.slx`: Simulink simulation
+- `DC_motor_script.m`: MATLAB implementation
+- `DC_motor_simulink.slx`: Simulink simulation
+
+## ▶️ How to Run the Simulation
+To execute the full simulation workflow:
+
+1. **Run the MATLAB script**  
+   Open `DC_motor_script.m` in MATLAB and run it. This script initializes all necessary parameters and populates the workspace.  
+   You can freely modify the parameters in the script to explore different system behaviors.
+2. **Open and run the Simulink model**  
+   Launch `DC_motor_simulink.slx` and click **Run**.  
+   The system response will be displayed directly in the embedded **Scope** block.
+
+NB: Make sure to run the MATLAB script **before** the Simulink model, so that all variables are correctly defined in the workspace.
 
 ## 📷 Results
 see `report.pdf`
